@@ -799,3 +799,17 @@ textarea.form-control {
   color: #fff !important;
   text-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
+
+/* Animation flèche vers le bas */
+.arrow-down-animation {
+  animation: bounceDown 1.5s infinite;
+  display: inline-block;
+}
+@keyframes bounceDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+}
