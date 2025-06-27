@@ -103,6 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Laravel", // Ingénieur en Apprentissage Automatique
         "Wordpress", // Architecte Cloud
         "Python",
+        "postgresql",
         "MySQL...", // Passionné de Tech
       ],
       typeSpeed: 50,
@@ -153,9 +154,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
                 <div class="card-footer bg-transparent border-0">
                     <div class="d-flex justify-content-center">
-                        <a href="${
-                          project.github
-                        }" class="btn btn-outline-primary btn-sm mx-2">Voir le code</a>
                         <a href="${
                           project.demo
                         }" class="btn btn-primary btn-sm mx-2">Démo en direct</a>
