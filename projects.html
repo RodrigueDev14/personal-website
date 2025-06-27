@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projets - Rodrigue Wanonkou</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Animation de fond -->
+    <div class="animated-bg-projects position-fixed top-0 start-0 w-100 h-100" style="z-index:-1;"></div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Rodrigue Wanonkou</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#home">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="projects.html">Projets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h1 class="display-4 mb-3">Mes Projets</h1>
+            <p class="lead text-muted">
+              Une collection de mes travaux et contributions dans divers
+              domaines
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center" id="projects-container">
+          <!-- Les projets seront chargés dynamiquement ici -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="contact" class="bg-dark text-white py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Connectez moi</h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="social-links text-center">
+              <a
+                href="mailto:rodrigue.wanonkou.5@gmail.com"
+                class="btn btn-outline-light btn-lg mx-2"
+              >
+                <i class="fas fa-envelope"></i> Gmail
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+      <div class="container">
+        <p>&copy; 2024 Rodrigue Wanonkou. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
