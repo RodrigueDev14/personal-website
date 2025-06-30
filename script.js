@@ -90,6 +90,16 @@ const projects = [
     image:
       "images/yume.png", // Chemin de l'image du projet sadaci
   },
+  {
+    name: "Divi Solution", // Analyseur de médias sociaux
+    description:
+      "app mobile de streaming manga en cours de developpement", // Plateforme pour analyser les tendances des médias sociaux et l\'analyse des sentiments
+    technologies: ["Wordpress", "Elementor"], // Technologies utilisées : Python, NLTK, FastAPI, React, PostgreSQL
+    github: "#",
+    demo: "divisolutionstech.ca",
+    image:
+      "images/diviSolution.png", // Chemin de l'image du projet sadaci
+  },
 ];
 
 // Configuration de l'animation de texte (Text animation configuration)
