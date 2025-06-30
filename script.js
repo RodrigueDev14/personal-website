@@ -93,7 +93,7 @@ const projects = [
   {
     name: "Divi Solution", // Analyseur de médias sociaux
     description:
-      "app mobile de streaming manga en cours de developpement", // Plateforme pour analyser les tendances des médias sociaux et l\'analyse des sentiments
+      "Divi Solutions Tech est une entreprise basée à Montréal, Québec, qui se dédie à aider les individus, et particulièrement les nouveaux arrivants francophones et les résidents du Québec, à maîtriser les outils et technologies numériques.", // Plateforme pour analyser les tendances des médias sociaux et l\'analyse des sentiments
     technologies: ["Wordpress", "Elementor"], // Technologies utilisées : Python, NLTK, FastAPI, React, PostgreSQL
     github: "#",
     demo: "divisolutionstech.ca",
