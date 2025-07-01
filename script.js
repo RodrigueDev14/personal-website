@@ -210,13 +210,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const codeLines = [
       'function helloWorld() {',
-      '  console.log("Bienvenue sur mon portfolio !");',
+      '  console.log("Bienvenu !");',
       '}',
       '',
-      'const skills = ["React", "Node.js", "Python"]',
+      'const skills = ["Dev", "Frontend", "Backend", "Fullstack"];',
       'let projet = "Innovation";',
-      'if (passion) {',
-      '  develop(projet);',
+      'if (rodriguewanonkou@outlook.fr) {',
+      '  develop(+225 01 03 22 74 85);',
       '}',
     ];
     let line = 0;
