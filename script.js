@@ -146,49 +146,51 @@ document.addEventListener("DOMContentLoaded", function () {
   // Création des cartes de projet (Project card creation)
   function createProjectCard(project) {
     return `
-            <div class="project-card card h-100">
-                <img src="${
-                  project.image
-                }" class="card-img-top" alt="${project.name}">
-                <div class="card-body">
-                    <div class="project-tags mb-2">
-                        ${project.technologies
-                          .map(
-                            (tech) =>
-                              `<span class="badge bg-primary">${tech}</span>`
-                          )
-                          .join(" ")}
-                    </div>
-                    <h5 class="card-title">${project.name}</h5>
-                    <p class="card-text">${project.description}</p>
-                </div>
-                <div class="card-footer bg-transparent border-0">
-                    <div class="d-flex justify-content-center">
-                        <a href="${
-                          project.demo
-                        }" class="btn btn-primary btn-sm mx-2">Démo en direct</a>
-                    </div>
-                </div>
-            </div>
-        `;
+      <div class="project-card card h-100">
+        <img src="${project.image}" class="card-img-top" alt="${project.name}">
+        <div class="card-body">
+          <div class="project-tags mb-2">
+            ${project.technologies
+              .map((tech) => `<span class="badge bg-primary">${tech}</span>`)
+              .join(" ")}
+          </div>
+          <h5 class="card-title">${project.name}</h5>
+          <p class="card-text">${project.description}</p>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+          <div class="d-flex justify-content-center">
+            ${
+              project.demo && project.demo !== "#"
+                ? `<a href="${project.demo}" class="btn btn-primary btn-sm mx-2" target="_blank">Accéder</a>`
+                : ""
+            }
+            ${
+              project.github && project.github !== "#"
+                ? `<a href="${project.github}" class="btn btn-outline-secondary btn-sm mx-2" target="_blank">Code</a>`
+                : ""
+            }
+          </div>
+        </div>
+      </div>
+    `;
   }
 
-  // Affichage des projets (Display projects)
+  // Affichage dynamique des projets sur toutes les pages qui contiennent #projects-container
   const projectsContainer = document.getElementById("projects-container");
   if (projectsContainer) {
+    // Nettoyer le container au cas où
+    projectsContainer.innerHTML = "";
+    let row = null;
     projects.forEach((project, index) => {
       if (index % 3 === 0) {
-        const row = document.createElement("div");
+        row = document.createElement("div");
         row.className = "row g-4 mb-4";
         projectsContainer.appendChild(row);
       }
-
       const col = document.createElement("div");
       col.className = "col-md-4";
       col.innerHTML = createProjectCard(project);
-
-      const lastRow = projectsContainer.lastElementChild;
-      lastRow.appendChild(col);
+      row.appendChild(col);
     });
   }
 
