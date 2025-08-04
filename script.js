@@ -149,10 +149,10 @@ document.addEventListener("DOMContentLoaded", function () {
     let demoBtn = '';
     let githubBtn = '';
     if (project.demo && project.demo !== '#') {
-      demoBtn = `<a href="${project.demo}" class="btn btn-primary btn-sm mx-2" target="_blank" rel="noopener">Accéder</a>`;
+      demoBtn = `<a href="${project.demo}" class="btn btn-primary btn-sm mx-2" target="_blank" rel="noopener">Demo en direct</a>`;
     }
     if (project.github && project.github !== '#') {
-      githubBtn = `<a href="${project.github}" class="btn btn-outline-secondary btn-sm mx-2" target="_blank" rel="noopener">Code</a>`;
+      githubBtn = `<a href="${project.github}" class="btn btn-outline-secondary btn-sm mx-2" target="_blank" rel="noopener"Code source</a>`;
     }
     return `
             <div class="project-card card h-100">
