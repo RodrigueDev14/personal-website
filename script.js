@@ -13,92 +13,92 @@ const projects = [
   {
     name: "CV Builder", // 
     description:
-      "Système de creation de cv professionel en quelque minutes.", // Système de gestion de tâches intelligent avec prédiction de priorité basée sur l'apprentissage automatique et traitement du langage naturel
-    technologies: ["Vite", "React", "Html5", "CSS3", "JavaScript"], // Technologies utilisées : Vite, React, Html5, CSS3, JavaScript
+      "Système de creation de cv professionel en quelque minutes.", 
+    technologies: ["Vite", "React", "Html5", "CSS3", "JavaScript"], 
     github: "#",
     demo: "https://verdant-babka-f67389.netlify.app/",
     image:
-      "images/cvbuilder.png", // Correction du chemin de l'image du projet
+      "images/cvbuilder.png", 
   },
   {
     name: "AM-SA", 
     description:
-      "refonte de la Plateforme collaborative solidaire.", // Solution e-commerce complète avec gestion des stocks en temps réel et analyse
-    technologies: ["Node.js", "NextJS", "PostgreSQL", "Daisy UI", "tailwind css"], // Technologies utilisées : Node.js, React, Express, PostgreSQL, Redis
+      "refonte de la Plateforme collaborative solidaire.", 
+    technologies: ["Node.js", "NextJS", "PostgreSQL", "Daisy UI", "tailwind css"], 
     github: "#",
     demo: "https://solidarit.netlify.app/",
     image:
-      "images/am-sa.png", // Chemin de l'image du projet AM-SA
+      "images/am-sa.png", 
   },
   {
-    name: "Ecole centrale", // Système de stockage en nuage
+    name: "Ecole centrale", 
     description:
-      "Plateforme institutionnel d’école.", // Stockage en nuage sécurisé avec chiffrement de bout en bout et fonctionnalités de collaboration en temps réel
-    technologies: ["React", "Next.js", "Daisy UI", "Tailwind css"], // Technologies utilisées : Python, AWS S3, Django, React, Docker
+      "Plateforme institutionnel d’école.", 
+    technologies: ["React", "Next.js", "Daisy UI", "Tailwind css"], 
     github: "#",
     demo: "https://eduportail.netlify.app/",
     image:
-      "images/ecole-central.png", // Chemin de l'image du projet Système de stockage en nuage
+      "images/ecole-central.png", 
   },
   {
-    name: "ScreenCraft", // Tableau de bord analytique
+    name: "ScreenCraft", 
     description:
-      "Enregistrement d'Écran Professionnel et Édition Vidéo.", // Tableau de bord interactif pour visualiser et analyser les flux de données volumineux en temps réel
-    technologies: ["React", "Vite", "TS"], // Technologies utilisées : JavaScript, D3.js, Node.js, WebSocket, MongoDB
+      "Enregistrement d'Écran Professionnel et Édition Vidéo.", 
+    technologies: ["React", "Vite", "TS"], 
     github: "#",
     demo: "https://wscreenrecorder.netlify.app/",
     image:
-      "images/screencraft.png", // Chemin de l'image du projet ScreenCraft
+      "images/screencraft.png", 
   },
   {
-    name: "AKAMAGROUPE", // Application de reconnaissance d\'images
+    name: "AKAMAGROUPE", 
     description:
-      "Site Entreprise refonte du site akama groupe SARL.", // Modèle d\'apprentissage profond pour la classification et la détection d\'objets en temps réel
-    technologies: ["NextJS", "Daisy UI", "TAilwin css"], // Technologies utilisées : Python, TensorFlow, OpenCV, Flask, React
+      "Site Entreprise refonte du site akama groupe SARL.", 
+    technologies: ["NextJS", "Daisy UI", "TAilwin css"], 
     github: "#",
     demo: "https://akamaweb.netlify.app/",
     image:
-      "images/akama.png", // Chemin de l'image du projet AKAMAGROUPE
+      "images/akama.png", 
   },
   {
-    name: "sadaci", // Analyseur de médias sociaux
+    name: "sadaci", 
     description:
-      "Solutions professionnelles complètes pour votre entreprise en Côte d'Ivoire.", // Plateforme pour analyser les tendances des médias sociaux et l\'analyse des sentiments
-    technologies: ["NextJs", "Daisy UI", "Tailwind css"], // Technologies utilisées : Python, NLTK, FastAPI, React, PostgreSQL
+      "Solutions professionnelles complètes pour votre entreprise en Côte d'Ivoire.", 
+    technologies: ["NextJs", "Daisy UI", "Tailwind css"], 
     github: "#",
     demo: "#",
     image:
-      "images/sadaci.png", // Chemin de l'image du projet sadaci
+      "images/sadaci.png", 
   },
    {
-    name: "drive-ivoire", // Analyseur de médias sociaux
+    name: "drive-ivoire", 
     description:
-      "app mobile vente de vehicule en cours de developpement", // Plateforme pour analyser les tendances des médias sociaux et l\'analyse des sentiments
-    technologies: ["Laravel 12", "Daisy UI", "Tailwind css"], // Technologies utilisées : Python, NLTK, FastAPI, React, PostgreSQL
+      "app mobile vente de vehicule en cours de developpement", 
+    technologies: ["Laravel 12", "Daisy UI", "Tailwind css"], 
     github: "#",
     demo: "#",
     image:
-      "images/drive-ivoire.png", // Chemin de l'image du projet sadaci
+      "images/drive-ivoire.png", 
   },
   {
-    name: "yume", // Analyseur de médias sociaux
+    name: "yume", 
     description:
-      "app mobile de streaming manga en cours de developpement", // Plateforme pour analyser les tendances des médias sociaux et l\'analyse des sentiments
-    technologies: ["flutter", "Dart", "Python", "Flask"], // Technologies utilisées : Python, NLTK, FastAPI, React, PostgreSQL
+      "app mobile de streaming manga en cours de developpement", 
+    technologies: ["flutter", "Dart", "Python", "Flask"], 
     github: "#",
     demo: "#",
     image:
-      "images/yume.png", // Chemin de l'image du projet sadaci
+      "images/yume.png", 
   },
   {
-    name: "Divi Solution", // Analyseur de médias sociaux
+    name: "Divi Solution", 
     description:
       "Divi Solutions Tech est une entreprise basée à Montréal, Québec, qui se dédie à aider les individus, et particulièrement les nouveaux arrivants francophones et les résidents du Québec, à maîtriser les outils et technologies numériques.", // Plateforme pour analyser les tendances des médias sociaux et l\'analyse des sentiments
-    technologies: ["Wordpress", "Elementor"], // Technologies utilisées : Python, NLTK, FastAPI, React, PostgreSQL
+    technologies: ["Wordpress", "Elementor"], 
     github: "#",
     demo: "https://www.divisolutionstech.ca",
     image:
-      "images/diviSolution.png", // Chemin de l'image du projet sadaci
+      "images/diviSolution.png", 
   },
 ];
 
