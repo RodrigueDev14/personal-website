@@ -75,7 +75,7 @@ const projects = [
     description:
       "app mobile vente de vehicule en cours de developpement", 
     technologies: ["Laravel 12", "Daisy UI", "Tailwind css"], 
-    github: "#",
+    github: "https://github.com/RodrigueDev13/drive_ivoire_v1.git",
     demo: "#",
     image:
       "images/drive-ivoire.png", 
